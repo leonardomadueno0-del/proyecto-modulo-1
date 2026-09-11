@@ -1,0 +1,7 @@
+flowchart TD
+    INC([inicio])
+   INC --> LA[/LEER altura /]
+   LA --> LB[/LEER base/]
+   LB --> P[area = altura * base / 2]
+   P --> MOSTRAR[/Mostrar area/]
+   MOSTRAR --> FIN([FIN])
