@@ -1,0 +1,17 @@
+ALGORITMO  calcular_area
+VARIABLES 
+area : real
+altura : entero
+base : entero
+
+INICIO 
+ESCRIBIR "Ingrese la altura"
+LEER altura
+ESCRIBIR "Ingrese la base"
+LEER base
+
+area = (altura * base) / 2
+
+ESCRIBIR "El área es:", area
+
+FIN
