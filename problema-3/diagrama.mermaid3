@@ -1,0 +1,6 @@
+flowchart TD
+INC([INICIO])
+    INC --> L[/LEER c1, c2, c3, c4, c5 "rango 0-100"/]
+    L --> P["promedio = (c1 + c2 + c3 + c4 + c5) / 5"]
+    P --> M[/MOSTRAR promedio/]
+    M --> FIN([FIN])
