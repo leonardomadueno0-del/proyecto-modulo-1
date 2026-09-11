@@ -1,0 +1,16 @@
+INC([Inicio]) --> L[/LEER n1, n2, n3, n4/]
+    
+    L --> C1{"n1 > n2 Y n1 > n3 Y n1 > n4"}
+    C1 -- Sí --> M1[/Mostrar n1/]
+    
+    C1 -- No --> C2{"n2 > n3 Y n2 > n4"}
+    C2 -- Sí --> M2[/Mostrar n2/]
+    
+    C2 -- No --> C3{"n3 > n4"}
+    C3 -- Sí --> M3[/Mostrar n3/]
+    C3 -- No --> M4[/Mostrar n4/]
+    
+    M1 --> FIN([FIN])
+    M2 --> FIN
+    M3 --> FIN
+    M4 --> FIN
