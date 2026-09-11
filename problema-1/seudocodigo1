@@ -1,8 +1,8 @@
 ALGORITMO  calcular_area
 VARIABLES 
 area : real
-altura : entero
-base : entero
+altura : real
+base : real
 
 INICIO 
 ESCRIBIR "Ingrese la altura"
