@@ -1,0 +1,27 @@
+ALGORITMO numero_ mayor
+VARIABLES 
+n1: entero
+n2: entero
+n3: entero
+n4: entero
+numero_mayor: entero
+
+INICIO
+ESCRIBIR "ingresar n1, n2, n3, n4"
+LEER n1, n2, n3, n4
+
+SI(n1 > n2 && n1 > n3 && n1 > n4)ENTONCES
+numero_mayor = n1
+
+SINO SI(n2 > n3 && n2 > n4) ENTONCES
+ numero_mayor = n2
+
+SINO SI(n3 > n4)ENTONCES
+numero_mayor = n3
+
+SINO
+numero_mayor = n4
+FIN_SI
+
+ESCRIBIR "El numero mayor es:", numero_mayor
+FIN
