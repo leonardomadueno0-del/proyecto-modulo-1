@@ -1,0 +1,19 @@
+ALGORITMO calcular_promedio
+VARIABLES 
+c1: real
+c2: real
+c3: real
+c4: real
+c5: real
+promedio: real
+
+INICIO
+
+ESCRIBIR "Ingresar c1, c2, c3, c4, c5 (rango 0-100):"
+LEER c1, c2, c3, c4, c5
+
+promedio = (c1 + c2 + c3 + c4 + c5) / 5
+
+ESCRIBIR "El promedio es:", promedio
+
+FIN
