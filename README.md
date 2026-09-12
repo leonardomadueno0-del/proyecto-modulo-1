@@ -33,3 +33,10 @@ Declaro que he utilizado la herramienta de Inteligencia Artificial **Gemini** ú
 3. *"Determinar el mayor de cuatro números... ¿crees que mi logica es correcta?"* (Consulta sobre optimización de lógica).
 4. *"SI(n1 > n2 && n1 > n3 && n1 > n4) ... ¿crees que la segunda de Y está 100% correcta?"* (Validación de operadores lógicos).
 5. *"CALCULAR PROMEDIO DE 5 CALIFICACIONES ... ¿crees que debería aclarar que es un número entre 1 y 100?"* (Validación de rango de entradas).
+
+   ---
+
+## Video exposicion en DRIVE
+
+https://drive.google.com/file/d/1URsmNegKykaASoApVONruwB72JDsYp1f/view?usp=sharing
+
